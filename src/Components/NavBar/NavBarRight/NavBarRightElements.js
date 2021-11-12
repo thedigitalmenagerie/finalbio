@@ -5,10 +5,17 @@ export const NavBarContainer = styled.div`
   display: block;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
+  text-align: right;
 `;
 
 export const LogoContainer = styled.div`
-  margin-top: 10px;
-  writing-mode: vertical-rl;
+`;
+
+export const LogoImg = styled.img`
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 175px;
 `;

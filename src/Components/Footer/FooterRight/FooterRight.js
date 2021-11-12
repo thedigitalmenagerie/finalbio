@@ -27,7 +27,7 @@ function FooterRight() {
             <a href="https://twitter.com/HoneyRaeSwan" target="_blank" rel="noopener noreferrer"><OLImage src={T} className="OLImage"/></a>
             <a href="https://instagram.com/thedigitalmenagerie?utm_medium=copy_link" target="_blank" rel="noopener noreferrer"><OLImage src={IG} className="OLImage"/></a>
             <a href="https://www.facebook.com/Honey-Rae-Swan-106115451890080/" target="_blank" rel="noopener noreferrer"><OLImage src={FB} className="OLImage"/></a>
-            <OLImage src={email} className="OLImage"/>
+            <a href="mailto:honeyraeswan@gmail.com?subject=So,%20I%20was%20looking%20at%20your%20site%20and%20..." target="_blank" rel="noopener noreferrer"><OLImage src={email} className="OLImage"/></a>
           </OuterLinks>
     </FooterRightContainer>
   );

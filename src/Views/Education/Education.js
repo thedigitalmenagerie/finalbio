@@ -1,11 +1,16 @@
 /* eslint-disable import/prefer-default-export */
 import React from 'react';
-import { EducationContainer } from './EducationElements';
+import {
+  EducationContainer,
+  EducationTop,
+  EducationBottom
+} from './EducationElements';
 
 function Education() {
   return (
     <EducationContainer className="EducationContainer">
-      Education.
+      <EducationTop className="EducationTop"></EducationTop>
+      <EducationBottom className="EducationBottom"></EducationBottom>
     </EducationContainer>
   );
 }

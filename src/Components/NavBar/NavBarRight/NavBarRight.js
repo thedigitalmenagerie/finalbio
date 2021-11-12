@@ -5,7 +5,7 @@ import {
   LogoContainer,
   LogoImg,
 } from './NavBarRightElements';
-import logo from '../../Assets/Logo.png';
+import logo from '../../../Assets/Logo.png';
 
 function NavBarRight() {
   return (

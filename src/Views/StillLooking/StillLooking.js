@@ -1,11 +1,12 @@
 /* eslint-disable import/prefer-default-export */
 import React from 'react';
-import { StillLookingContainer } from './StillLookingElements';
+import { StillLookingContainer, SLTop, SLBottom } from './StillLookingElements';
 
 function StillLooking() {
   return (
     <StillLookingContainer className="StillLookingContainer">
-      Still Looking?
+      <SLTop className="SLTop">Still looking?</SLTop>
+      <SLBottom className="SLBottom"></SLBottom>
     </StillLookingContainer>
   );
 }
