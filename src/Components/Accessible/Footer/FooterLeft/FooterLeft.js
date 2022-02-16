@@ -4,7 +4,7 @@ import {
   FooterLeftContainer,
   OLImage,
 } from './FooterLeftElements';
-import me from '../../../Assets/me2.png';
+import me from '../../../../Assets/me5.png';
 
 function FooterLeft() {
   return (

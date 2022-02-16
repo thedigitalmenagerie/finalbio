@@ -18,6 +18,11 @@ export const IntroTop = styled.div`
   font-weight: bold;
   font-size: 25px;
   padding-top: 15%;
+  @media (max-width: 1060px) {
+    padding-top: 20%;
+    align-self: left;
+    font-size: 20px;
+  }
 `;
 
 export const IntroBottom = styled.div`
@@ -27,12 +32,18 @@ export const IntroBottom = styled.div`
   text-align: right;
   margin-left: 30%;
   margin-bottom: 20%;
+  @media (max-width: 1060px) {
+    padding-top: 5%;
+  }
 `;
 
 export const Title = styled.div`
   color: #BF9000;
   font-weight: bold;
   font-size: 50px;
+  @media (max-width: 1060px) {
+    font-size: 35px;
+  }
 `;
 
 export const Text = styled.div`

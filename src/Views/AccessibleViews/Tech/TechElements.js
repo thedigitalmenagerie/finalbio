@@ -22,7 +22,7 @@ padding-top: 15%;
 
 export const TechBottom = styled.div`
 height: 50%;
-max-width: 50%;
+max-width: 100%;
 padding-top: 10%;
 text-align: right;
 margin-left: 30%;

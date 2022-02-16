@@ -12,7 +12,7 @@ function Intro() {
   return (
     <IntroContainer className="IntroContainer">
       <IntroTop className="IntroTop">
-        An english major turned software engineer?
+        An English major turned software engineer?
       </IntroTop>
       <IntroBottom className="IntroBottom">
         <Title className="Title">Storytelling reveals the world around us and coding is a relevant narrative form in our computational society.</Title>

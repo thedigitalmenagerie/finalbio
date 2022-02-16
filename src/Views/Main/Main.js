@@ -1,11 +1,16 @@
 /* eslint-disable import/prefer-default-export */
 import React from 'react';
-import { MainContainer } from './MainElements';
+import { ScrollRotate } from 'react-scroll-rotate';
+import { MainContainer, Box } from './MainElements';
 
 function Main() {
   return (
-    <MainContainer className="MainContainer">
-      Nothing gets futured without its own spitshine.
+    <MainContainer>
+      <ScrollRotate>
+        <Box>
+        Nothing gets futured without its own spitshine
+        </Box>
+      </ScrollRotate>
     </MainContainer>
   );
 }

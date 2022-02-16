@@ -5,21 +5,21 @@ import {
   OuterLinks,
   OLImage,
 } from './FooterRightElements';
-import FB from '../../../Assets/OuterLinks/FB.png';
-import GH from '../../../Assets/OuterLinks/GH.png';
-import IG from '../../../Assets/OuterLinks/IG.png';
-import LB from '../../../Assets/OuterLinks/LB.png';
-import LI from '../../../Assets/OuterLinks/LI.png';
-import S from '../../../Assets/OuterLinks/S.png';
-import T from '../../../Assets/OuterLinks/T.png';
-import phone from '../../../Assets/OuterLinks/phone.png';
-import email from '../../../Assets/OuterLinks/email.png';
+import FB from '../../../../Assets/OuterLinks/FB.png';
+import GH from '../../../../Assets/OuterLinks/GH.png';
+import IG from '../../../../Assets/OuterLinks/IG.png';
+import LB from '../../../../Assets/OuterLinks/LB.png';
+import LI from '../../../../Assets/OuterLinks/LI.png';
+import S from '../../../../Assets/OuterLinks/S.png';
+import T from '../../../../Assets/OuterLinks/T.png';
+import phone from '../../../../Assets/OuterLinks/phone.png';
+import email from '../../../../Assets/OuterLinks/email.png';
 
 function FooterRight() {
   return (
     <FooterRightContainer className="FooterRightContainer">
         <OuterLinks className="OuterLinks">
-            <OLImage src={phone} className="OLImage"/>
+          <button><OLImage src={phone} className="OLImage"/></button>
             <a href="https://github.com/thedigitalmenagerie" target="_blank" rel="noopener noreferrer"><OLImage src={GH} className="OLImage"/></a>
             <a href="https://www.linkedin.com/in/honeyraeswan/" target="_blank" rel="noopener noreferrer"><OLImage src={LI} className="OLImage"/></a>
             <a href="https://open.spotify.com/user/hrelizabethswan?si=a85632db77cd4525" target="_blank" rel="noopener noreferrer"><OLImage src={S} className="OLImage"/></a>
