@@ -15,6 +15,17 @@ export const OuterLinks = styled.div`
   align-items: flex-end;
 `;
 
+export const Button = styled.button`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+`;
+
 export const OLImage = styled.img`
   width: 30px;
   padding: 5px;

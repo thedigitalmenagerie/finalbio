@@ -4,6 +4,7 @@ import {
   FooterRightContainer,
   OuterLinks,
   OLImage,
+  Button,
 } from './FooterRightElements';
 import FB from '../../../../Assets/OuterLinks/FB.png';
 import GH from '../../../../Assets/OuterLinks/GH.png';
@@ -19,7 +20,7 @@ function FooterRight() {
   return (
     <FooterRightContainer className="FooterRightContainer">
         <OuterLinks className="OuterLinks">
-          <button><OLImage src={phone} className="OLImage"/></button>
+          <Button><OLImage src={phone} className="OLImage"/></Button>
             <a href="https://github.com/thedigitalmenagerie" target="_blank" rel="noopener noreferrer"><OLImage src={GH} className="OLImage"/></a>
             <a href="https://www.linkedin.com/in/honeyraeswan/" target="_blank" rel="noopener noreferrer"><OLImage src={LI} className="OLImage"/></a>
             <a href="https://open.spotify.com/user/hrelizabethswan?si=a85632db77cd4525" target="_blank" rel="noopener noreferrer"><OLImage src={S} className="OLImage"/></a>

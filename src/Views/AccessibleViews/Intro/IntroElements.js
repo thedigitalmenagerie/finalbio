@@ -49,4 +49,5 @@ export const Title = styled.div`
 export const Text = styled.div`
   font-weight: bold;
   font-size: 20px;
+  font-style: italic;
 `;
