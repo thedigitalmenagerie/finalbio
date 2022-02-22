@@ -6,8 +6,8 @@ import Main from '../Views/Main/Main';
 function Routes() {
   return (
       <Switch>
-        <Route exact path="/" component={Main}/>
-        <Route exact path="/Accessible" component={Accessible}/>
+        <Route exact path="/" component={Accessible}/>
+        <Route exact path="/Accessible" component={Main}/>
       </Switch>
   );
 }

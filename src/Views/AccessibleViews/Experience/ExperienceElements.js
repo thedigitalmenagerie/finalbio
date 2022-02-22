@@ -30,3 +30,9 @@ font-weight: bold;
 font-size: 20px;
 font-style: italic;
 `;
+
+export const ExperienceImg = styled.img`
+  width: 200px;
+  filter: grayscale(100%);
+  padding-right: 35px;
+`;
