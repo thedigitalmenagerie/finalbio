@@ -17,7 +17,6 @@ color: black;
 font-style: italic;
 font-weight: bold;
 font-size: 25px;
-padding-top: 15%;
 `;
 
 export const SLBottom = styled.div`
@@ -27,4 +26,11 @@ padding-top: 10%;
 text-align: right;
 margin-left: 30%;
 margin-bottom: 20%;
+`;
+
+export const SLSpecial = styled.div`
+color: #BF9000;
+font-weight: bold;
+font-size: 50px;
+padding-bottom: 25px;
 `;

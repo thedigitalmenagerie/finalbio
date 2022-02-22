@@ -11,7 +11,7 @@ export const FooterLeftContainer = styled.div`
 export const OLImage = styled.img`
   display: block;
   position: fixed;
-  width: 500px;
+  width: 600px;
   bottom: 0;
   left: 0;
   bottom: 0;

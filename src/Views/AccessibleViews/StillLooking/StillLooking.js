@@ -1,13 +1,19 @@
 /* eslint-disable import/prefer-default-export */
 import React from 'react';
-import { StillLookingContainer, SLTop, SLBottom } from './StillLookingElements';
+import {
+  StillLookingContainer,
+  SLTop,
+  SLBottom,
+  SLSpecial
+} from './StillLookingElements';
 
 function StillLooking() {
   return (
     <StillLookingContainer className="StillLookingContainer">
-      <SLTop className="SLTop">Still looking?</SLTop>
+      <SLTop className="SLTop">. . . still lookin&apos;?</SLTop>
       <SLBottom className="SLBottom">
-        You&apos;re clearly into me! These days, I&apos;m still working remotely and coding out new ideas while taking courses to improve my UI/UX execution. I am diligently searching for my way into tech and am waiting on the best fit. If you&apos;re looking to open the door to someone getting started and think I&apos;d be a good fit for your team, please drop me a line!
+        <SLSpecial>You&apos;re clearly into me!</SLSpecial>
+        If you&apos;re thinking I&apos;d be a good fit for what you have going on, reach out and we&apos;ll talk the tech.
       </SLBottom>
     </StillLookingContainer>
   );

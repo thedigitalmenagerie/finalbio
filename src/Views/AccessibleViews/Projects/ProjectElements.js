@@ -16,17 +16,21 @@ width: 50%;
 color: #BF9000;
 font-weight: bold;
 font-size: 25px;
-padding-top: 15%;
+// padding-top: 15%;
 `;
 
 export const ProjectsBottom = styled.div`
-height: 50%;
+// display: flex;
+// flex-flow: row wrap;
+// justify-content: center;
+// align-items: center;
+// height: 50%;
 max-width: 50%;
 padding-top: 10%;
-text-align: right;
+// text-align: right;
 margin-left: 30%;
-margin-bottom: 20%;
-font-weight: bold;
-font-size: 20px;
-font-style: italic;
+// margin-bottom: 20%;
+// font-weight: bold;
+// font-size: 20px;
+// font-style: italic;
 `;

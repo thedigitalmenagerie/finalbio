@@ -16,7 +16,7 @@ width: 50%;
 color: #BF9000;
 font-weight: bold;
 font-size: 25px;
-padding-top: 15%;
+// padding-top: 15%;
 `;
 
 export const ExperienceBottom = styled.div`

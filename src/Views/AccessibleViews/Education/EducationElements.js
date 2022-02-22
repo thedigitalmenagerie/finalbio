@@ -13,11 +13,11 @@ max-height: 100%;
 export const EducationTop = styled.div`
 height: 50%;
 width: 50%;
-color: black;
+color: #BF9000;
 font-style: italic;
 font-weight: bold;
 font-size: 25px;
-padding-top: 15%;
+padding-top: 20%;
 `;
 
 export const EducationBottom = styled.div`
@@ -27,4 +27,10 @@ padding-top: 10%;
 text-align: right;
 margin-left: 30%;
 margin-bottom: 20%;
+`;
+
+export const EdImage = styled.img`
+  width: 200px;
+  filter: grayscale(100%);
+  padding-right: 30px;
 `;

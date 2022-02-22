@@ -30,3 +30,30 @@ export const OLImage = styled.img`
   width: 30px;
   padding: 5px;
 `;
+
+export const Modal = styled.div`
+position: fixed;
+z-index: 999;
+width: 100%;
+height: 100%;
+background: white;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+top: 0;
+left: 0;
+transitionL 0.3s ease-in-out;
+opacity:  ${({ isOpen }) => (isOpen ? '100%' : '0')};
+top: ${({ isOpen }) => (isOpen ? '0' : '100%')};
+`;
+
+export const ButtonTwo = styled.button`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+`;
