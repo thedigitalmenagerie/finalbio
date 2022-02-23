@@ -16,4 +16,8 @@ export const OLImage = styled.img`
   left: 0;
   bottom: 0;
   left: 0;
+
+  @media screen and (width: 1920px) and (height: 1080px) {
+    width: 800px;
+  }
 `;

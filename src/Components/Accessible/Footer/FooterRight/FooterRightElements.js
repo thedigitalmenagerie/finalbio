@@ -28,7 +28,12 @@ export const Button = styled.button`
 
 export const OLImage = styled.img`
   width: 30px;
-  padding: 5px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+
+  @media screen and (width: 1920px) and (height: 1080px) {
+    width: 50px;
+  }
 `;
 
 export const Modal = styled.div`
