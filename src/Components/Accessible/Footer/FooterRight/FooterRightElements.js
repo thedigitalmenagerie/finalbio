@@ -34,6 +34,15 @@ export const OLImage = styled.img`
   @media screen and (width: 1920px) and (height: 1080px) {
     width: 50px;
   }
+
+  @media screen and (width: 2560px) and (height: 1440px) {
+    width: 75px;
+  }
+
+
+  @media screen and (width: 1680px) and (height: 1050px) {
+    width: 50px;
+  }
 `;
 
 export const Modal = styled.div`
@@ -42,14 +51,15 @@ z-index: 999;
 width: 100%;
 height: 100%;
 background: white;
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
 top: 0;
 left: 0;
 transitionL 0.3s ease-in-out;
 opacity:  ${({ isOpen }) => (isOpen ? '100%' : '0')};
 top: ${({ isOpen }) => (isOpen ? '0' : '100%')};
+@media screen and (width: 1366px) and (height: 768px) {
+  display: flex;
+  flex-flow: row wrap;
+}
 `;
 
 export const ButtonTwo = styled.button`

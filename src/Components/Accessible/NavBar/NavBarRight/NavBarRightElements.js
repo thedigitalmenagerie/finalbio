@@ -22,4 +22,12 @@ export const LogoImg = styled.img`
   @media screen and (width: 1920px) and (height: 1080px) {
     width: 300px;
   }
+
+  @media screen and (width: 2560px) and (height: 1440px) {
+    width: 400px;
+  }
+
+  @media screen and (width: 1680px) and (height: 1050px) {
+    width: 300px;
+  }
 `;

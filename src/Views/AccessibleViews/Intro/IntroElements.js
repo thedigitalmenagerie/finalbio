@@ -23,6 +23,23 @@ export const IntroTop = styled.div`
   @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
   }
+
+  @media screen and (width: 1440px) and (height: 900px) {
+    padding-top: 20%;
+  }
+
+  @media screen and (width: 2560px) and (height: 1440px) {
+    font-size: 50px;
+  }
+
+  @media screen and (width: 1680px) and (height: 1050px) {
+    padding-top: 17%;
+    font-size: 40px;
+  }
+
+  @media screen and (width: 1280px) and (height: 800px) {
+    padding-top: 20%;
+  }
 `;
 
 export const IntroBottom = styled.div`
@@ -42,6 +59,14 @@ export const Title = styled.div`
   @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 55px;
   }
+
+  @media screen and (width: 2560px) and (height: 1440px) {
+    font-size: 75px;
+  }
+
+  @media screen and (width: 1680px) and (height: 1050px) {
+    font-size: 50px;
+  }
 `;
 
 export const Text = styled.div`
@@ -51,5 +76,13 @@ export const Text = styled.div`
 
   @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 30px;
+  }
+
+  @media screen and (width: 2560px) and (height: 1440px) {
+    font-size: 40px;
+  }
+
+  @media screen and (width: 1680px) and (height: 1050px) {
+    font-size: 25px;
   }
 `;

@@ -21,6 +21,24 @@ font-size: 25px;
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
   }
+
+  @media screen and (width: 1366px) and (height: 768px) {
+    font-size: 25px;
+  }
+
+  @media screen and (width: 1440px) and (height: 900px) {
+    padding-top: 10%;
+  }
+
+  @media screen and (width: 2560px) and (height: 1440px) {
+    padding-top: 20%;
+    font-size: 50px;
+  }
+
+  @media screen and (width: 1680px) and (height: 1050px) {
+    font-size: 30px;
+    padding-top: 20%;
+  }
 `;
 
 export const ProjectsBottom = styled.div`

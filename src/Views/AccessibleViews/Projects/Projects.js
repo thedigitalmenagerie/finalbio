@@ -19,7 +19,7 @@ function Projects() {
   return (
     <ProjectsContainer className='ProjectsContainer'>
       <ProjectsTop className='PojectsTop'>
-        And the stories I&apos;ve told using my newly acquired languages and
+        The stories I&apos;ve told using my newly acquired languages and
         narrative form
       </ProjectsTop>
       <ProjectsBottom className='ProjectsBottom'>

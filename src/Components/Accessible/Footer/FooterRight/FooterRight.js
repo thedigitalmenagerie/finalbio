@@ -47,8 +47,8 @@ function FooterRight() {
             isOpen={modalIsOpen}
             className="Modal"
           >
-            <ButtonTwo onClick={closeModal}>BACK</ButtonTwo>
             <Resume><OLImage src={d}/></Resume>
+            <ButtonTwo onClick={closeModal}>BACK</ButtonTwo>
           </Modal>
     </FooterRightContainer>
   );
