@@ -40,6 +40,29 @@ export const IntroTop = styled.div`
   @media screen and (width: 1280px) and (height: 800px) {
     padding-top: 20%;
   }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    font-size: 30px;
+    padding-top: 20%;
+  }
+
+  @media screen and (width: 360px) and (height: 640px) {
+    font-size: 50px;
+    padding-top: 80%;
+    height: 50%;
+    width: 100%;
+    padding-left: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    font-size: 45px;
+    width: 100%;
+    padding-top: 80%;
+    padding-left: 20%;
+    height: 50%;
+    color: #BF9000;
+  }
 `;
 
 export const IntroBottom = styled.div`
@@ -49,6 +72,18 @@ export const IntroBottom = styled.div`
   text-align: right;
   margin-left: 30%;
   margin-bottom: 20%;
+
+  @media screen and (width: 360px) and (height: 640px) {
+    max-width: 100%;
+    margin-left: 30%;
+    padding-top: 150%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    max-width: 100%;
+    padding-right: 10%;
+    padding-top: 150%;
+  }
 `;
 
 export const Title = styled.div`
@@ -67,6 +102,21 @@ export const Title = styled.div`
   @media screen and (width: 1680px) and (height: 1050px) {
     font-size: 50px;
   }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    font-size: 50px;
+  }
+
+  @media screen and (width: 360px) and (height: 640px) {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    font-size: 28px;
+    width: 100%;
+  }
+  
 `;
 
 export const Text = styled.div`
@@ -84,5 +134,19 @@ export const Text = styled.div`
 
   @media screen and (width: 1680px) and (height: 1050px) {
     font-size: 25px;
+  }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    font-size: 25px;
+  }
+
+  @media screen and (width: 360px) and (height: 640px) {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    font-size: 15px;
+    width: 100%;
   }
 `;

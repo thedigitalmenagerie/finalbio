@@ -48,6 +48,28 @@ font-size: 25px;
   @media screen and (width: 1280px) and (height: 800px) {
     padding-top: 20%;
   }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    font-size: 30px;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+
+  @media screen and (width: 360px) and (height: 640px) {
+    font-size: 25px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    padding-left: 20%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    font-size: 25px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    padding-right: 3%;
+  }
 `;
 
 export const BioBottom = styled.div`
@@ -71,5 +93,27 @@ font-style: italic;
 
   @media screen and (width: 1680px) and (height: 1050px) {
     font-size: 25px;
+  }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    font-size: 25px;
+  }
+
+  @media screen and (width: 360px) and (height: 640px) {
+    font-size: 12px;
+    // padding-top: 80%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 20%;
+    // padding-left: 20%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    font-size: 12px;
+    // padding-top: 80%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 20%;
+    padding-right: 10%;
   }
 `;

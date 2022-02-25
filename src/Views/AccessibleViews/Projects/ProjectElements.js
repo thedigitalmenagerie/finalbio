@@ -39,6 +39,30 @@ font-size: 25px;
     font-size: 30px;
     padding-top: 20%;
   }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    font-size: 35px;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+
+  @media screen and (width: 360px) and (height: 640px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    // padding-left: 20%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    // padding-left: 20%;
+  }
 `;
 
 export const ProjectsBottom = styled.div`
@@ -55,6 +79,14 @@ margin-left: 30%;
 // font-weight: bold;
 // font-size: 20px;
 // font-style: italic;
+
+@media screen and (width: 360px) and (height: 640px) {
+  display: none;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    display: none;
+  }
 `;
 
 export const Image = styled.img`

@@ -51,6 +51,30 @@ padding-top: 20%;
     padding-top: 30%;
     padding-left: 15%;
   }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    font-size: 35px;
+    padding-top: 20%;
+    padding-left: 15%;
+  }
+
+  @media screen and (width: 360px) and (height: 640px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-left: 20%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-left: 20%;
+  }
 `;
 
 export const EducationBottom = styled.div`
@@ -60,6 +84,15 @@ padding-top: 10%;
 text-align: right;
 margin-left: 30%;
 margin-bottom: 20%;
+
+@media screen and (width: 360px) and (height: 640px) {
+    width: 100%;
+    padding-left: 20%;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    width: 100%;
+  }
 `;
 
 export const EdImage = styled.img`
@@ -92,5 +125,19 @@ export const EdImage = styled.img`
   @media screen and (width: 1280px) and (height: 800px) {
     width: 150px;
     padding-right: 50px;
+  }
+
+  @media screen and (width: 1792px) and (height: 1120px) {
+    width: 200px;
+    padding-right: 50px;
+  }
+  @media screen and (width: 360px) and (height: 640px) {
+    width: 100px;
+    padding-bottom: 25px;
+  }
+
+  @media screen and (width: 411px) and (height: 731px) {
+    width: 100px;
+    padding-bottom: 25px;
   }
 `;
