@@ -68,6 +68,35 @@ font-size: 25px;
   height: 50%;
   width: 75%;
 }
+
+@media screen and (width: 411px) and (height: 823px) {
+  font-size: 25px;
+  padding-top: 80%;
+  height: 50%;
+  width: 75%;
+}
+
+@media screen and (width: 320px) and (height: 568px) {
+  font-size: 20px;
+  padding-top: 80%;
+  height: 50%;
+  width: 75%;
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+  font-size: 20px;
+  padding-top: 80%;
+  height: 50%;
+  width: 75%;
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+  font-size: 20px;
+  padding-top: 80%;
+  height: 50%;
+  width: 60%;
+  padding-right: 20%;
+}
 `;
 
 export const TechBottom = styled.div`
@@ -112,6 +141,34 @@ font-weight: bold;
   max-width: 100%;
   padding-top: 5%;
   padding-right: 10%;
+}
+
+@media screen and (width: 411px) and (height: 823px) {
+  font-size: 12px;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+@media screen and (width: 320px) and (height: 568px) {
+  font-size: 10px;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+  font-size: 10px;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+  font-size: 10px;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 20%;
 }
 `;
 
@@ -161,6 +218,31 @@ export const TechPhoto = styled.img`
 
   @media screen and (width: 411px) and (height: 731px) {
     width: 25px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    width: 25px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    width: 20px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    width: 20px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    width: 20px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    width: 20px;
     padding: 5px;
   }
 `;

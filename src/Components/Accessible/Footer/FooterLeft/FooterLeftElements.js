@@ -44,4 +44,16 @@ export const OLImage = styled.img`
   @media screen and (width: 411px) and (height: 823px) {
     width: 300px;
   }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    width: 200px;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    width: 300px;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    width: 300px;
+  }
 `;

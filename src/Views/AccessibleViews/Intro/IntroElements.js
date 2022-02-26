@@ -63,6 +63,41 @@ export const IntroTop = styled.div`
     height: 50%;
     color: #BF9000;
   }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    font-size: 45px;
+    width: 100%;
+    padding-top: 80%;
+    padding-left: 20%;
+    height: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    font-size: 45px;
+    width: 100%;
+    padding-top: 50%;
+    padding-left: 30%;
+    height: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    font-size: 38px;
+    width: 100%;
+    padding-top: 70%;
+    padding-left: 30%;
+    height: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    font-size: 35px;
+    width: 70%;
+    padding-top: 70%;
+    height: 50%;
+    color: #BF9000;
+  }
 `;
 
 export const IntroBottom = styled.div`
@@ -84,6 +119,32 @@ export const IntroBottom = styled.div`
     padding-right: 10%;
     padding-top: 150%;
   }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    max-width: 100%;
+    padding-right: 10%;
+    padding-top: 150%;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    max-width: 100%;
+    padding-right: 10%;
+    padding-top: 150%;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    max-width: 100%;
+    padding-right: 10%;
+    padding-top: 150%;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    max-width: 100%;
+    padding-right: 25%;
+    margin-left: 20%;
+    padding-top: 150%;
+  }
+  
 `;
 
 export const Title = styled.div`
@@ -116,6 +177,26 @@ export const Title = styled.div`
     font-size: 28px;
     width: 100%;
   }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    font-size: 25px;
+    width: 100%;
+  }
   
 `;
 
@@ -146,6 +227,26 @@ export const Text = styled.div`
   }
 
   @media screen and (width: 411px) and (height: 731px) {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    font-size: 15px;
+    width: 100%;
+  }
+  
+  @media screen and (width: 414px) and (height: 736px) {
     font-size: 15px;
     width: 100%;
   }

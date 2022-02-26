@@ -63,6 +63,42 @@ font-size: 25px;
     color: #BF9000;
     // padding-left: 20%;
   }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    // padding-left: 20%;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    // padding-left: 20%;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    // padding-left: 20%;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-right: 10%;
+  }
 `;
 
 export const ProjectsBottom = styled.div`
@@ -85,6 +121,22 @@ margin-left: 30%;
   }
 
   @media screen and (width: 411px) and (height: 731px) {
+    display: none;
+  }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    display: none;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    display: none;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    display: none;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
     display: none;
   }
 `;

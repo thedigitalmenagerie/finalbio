@@ -71,6 +71,22 @@ font-size: 25px;
   @media screen and (width: 411px) and (height: 731px) {
     padding-top: 80%;
   }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    padding-top: 80%;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    padding-top: 80%;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    padding-top: 80%;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    padding-top: 80%;
+  }
 `;
 
 export const SLBottom = styled.div`
@@ -139,6 +155,46 @@ margin-bottom: 20%;
     font-weight: bold;
     max-width: 100%;
   }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    padding-top: 30%;
+    padding-bottom: 40%;
+    padding-right: 10%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    padding-top: 30%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    padding-top: 30%;
+    padding-bottom: 50%;
+    padding-right: 10%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
+    padding-top: 30%;
+    padding-bottom: 50%;
+    padding-right: 10%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+  }
 `;
 
 export const SLSpecial = styled.div`
@@ -165,6 +221,22 @@ padding-bottom: 25px;
   }
 
   @media screen and (width: 411px) and (height: 731px) {
+    font-size: 40px;
+  }
+
+  @media screen and (width: 411px) and (height: 823px) {
+    font-size: 40px;
+  }
+
+  @media screen and (width: 320px) and (height: 568px) {
+    font-size: 40px;
+  }
+
+  @media screen and (width: 375px) and (height: 667px) {
+    font-size: 40px;
+  }
+
+  @media screen and (width: 414px) and (height: 736px) {
     font-size: 40px;
   }
   
