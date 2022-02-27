@@ -98,6 +98,38 @@ export const IntroTop = styled.div`
     height: 50%;
     color: #BF9000;
   }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    font-size: 35px;
+    width: 70%;
+    padding-top: 80%;
+    height: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    font-size: 35px;
+    width: 70%;
+    padding-top: 50%;
+    height: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    font-size: 50px;
+    width: 70%;
+    padding-top: 50%;
+    height: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    font-size: 40px;
+    width: 70%;
+    padding-top: 50%;
+    height: 50%;
+    color: #BF9000;
+  }
 `;
 
 export const IntroBottom = styled.div`
@@ -143,6 +175,34 @@ export const IntroBottom = styled.div`
     padding-right: 25%;
     margin-left: 20%;
     padding-top: 150%;
+  }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    max-width: 100%;
+    padding-right: 25%;
+    margin-left: 20%;
+    padding-top: 150%;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    max-width: 100%;
+    padding-right: 25%;
+    margin-left: 20%;
+    padding-top: 100%;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    max-width: 100%;
+    padding-right: 20%;
+    margin-left: 35%;
+    padding-top: 100%;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    max-width: 100%;
+    padding-right: 20%;
+    margin-left: 35%;
+    padding-top: 100%;
   }
   
 `;
@@ -197,6 +257,21 @@ export const Title = styled.div`
     font-size: 25px;
     width: 100%;
   }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    font-size: 30px;
+    width: 100%;
+  }
   
 `;
 
@@ -247,6 +322,22 @@ export const Text = styled.div`
   }
   
   @media screen and (width: 414px) and (height: 736px) {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    font-size: 30px;
+    width: 100%;
+  }
+
+
+  @media screen and (width: 540px) and (height: 720px) {
     font-size: 15px;
     width: 100%;
   }

@@ -10,7 +10,7 @@ function Bio() {
   return (
     <BioContainer className="BioContainer">
       <BioTop className="BioTop">
-        A lady coder, cinephile, sci-fi aficianado, tough tufter, and cat mom orignally hailing from a holler roundabout Music City.
+        A lady coder, cinephile, sci-fi aficionado, tough tufter, and cat mom originally hailing from a holler roundabout Music City.
       </BioTop>
       <BioBottom className="BioBottom">
         I&apos;ve been off working in logistics since receiving my degree in literature.
@@ -18,7 +18,7 @@ function Bio() {
         what I wanted to do next.
         Nashville Software School had been on my radar for sometime. Could I be useful and creative in a new career path?
         I decided to sign up for their jumpstart program and try it out.
-        It took me back to the days of messing around in HTML and CSS- making my MySpace profile rain glitter and forcing each of my unsuspecting visitors to listen to whatever song I was obessed with upon arrival.
+        It took me back to the days of messing around in HTML and CSS- making my MySpace profile rain glitter and forcing each of my unsuspecting visitors to listen to whatever song I was obsessed with upon arrival.
         (Yes, my Spotify is linked here. Sharing music is my favorite feature on any platform.)
         Naturally, I signed up for the bootcamp and, now, I&apos;m looking forward to building and maintaining inclusive tech with all y&apos;all.
       </BioBottom>

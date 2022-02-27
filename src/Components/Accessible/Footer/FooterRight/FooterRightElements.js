@@ -63,6 +63,14 @@ export const OLImage = styled.img`
   @media screen and (width: 320px) and (height: 568px) {
     width: 25px;
   }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    width: 50px;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    width: 25px;
+  }
 `;
 
 export const Modal = styled.div`

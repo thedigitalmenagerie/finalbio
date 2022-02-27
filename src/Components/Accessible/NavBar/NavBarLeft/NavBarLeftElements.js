@@ -31,4 +31,12 @@ export const LogoContainer = styled.div`
   @media screen and (width: 411px) and (height: 731px) {
     font-size: 15px;
   }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    font-size: 20px;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    font-size: 25px;
+  }
 `;

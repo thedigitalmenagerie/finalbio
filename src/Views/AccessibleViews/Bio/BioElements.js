@@ -102,6 +102,37 @@ font-size: 25px;
     width: 60%;
     padding-right: 15%;
   }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 60%;
+    padding-right: 15%;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    padding-top: 80%;
+    height: 50%;
+    width: 60%;
+    padding-right: 15%;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    padding-top: 80%;
+    height: 50%;
+    width: 60%;
+    padding-right: 15%;
+    font-size: 35px;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    padding-top: 80%;
+    height: 50%;
+    width: 60%;
+    padding-right: 15%;
+    font-size: 20px;
+  }
 `;
 
 export const BioBottom = styled.div`
@@ -183,5 +214,40 @@ font-style: italic;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 20%;
+  }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    font-size: 10px;
+    // padding-top: 80%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 20%;
+    padding-right: 20%;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    // padding-top: 80%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 20%;
+    padding-right: 20%;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    padding-top: 0%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 40%;
+    padding-right: 17%;
+    font-size: 25px;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    padding-top: 0%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 40%;
+    padding-right: 17%;
+    font-size: 12px;
   }
 `;

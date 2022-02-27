@@ -87,6 +87,25 @@ font-size: 25px;
   @media screen and (width: 414px) and (height: 736px) {
     padding-top: 80%;
   }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    padding-top: 80%;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    padding-top: 80%;
+    font-size: 30px;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    padding-top: 80%;
+    font-size: 30px;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    padding-top: 80%;
+    font-size: 45px;
+  }
 `;
 
 export const SLBottom = styled.div`
@@ -195,6 +214,37 @@ margin-bottom: 20%;
     font-weight: bold;
     max-width: 100%;
   }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    padding-top: 30%;
+    padding-bottom: 70%;
+    padding-right: 10%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    padding-top: 20%;
+    padding-bottom: 30%;
+    padding-right: 20%;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    padding-top: 20%;
+    padding-bottom: 25%;
+    padding-right: 20%;
+    padding-left: 10%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+  }
 `;
 
 export const SLSpecial = styled.div`
@@ -238,6 +288,18 @@ padding-bottom: 25px;
 
   @media screen and (width: 414px) and (height: 736px) {
     font-size: 40px;
+  }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    font-size: 40px;
+  }
+
+  @media screen and (width: 768x) and (height: 1024px) {
+    font-size: 40px;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    font-size: 60px;
   }
   
 `;

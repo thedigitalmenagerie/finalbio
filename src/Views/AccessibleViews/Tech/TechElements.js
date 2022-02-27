@@ -97,6 +97,37 @@ font-size: 25px;
   width: 60%;
   padding-right: 20%;
 }
+
+@media screen and (width: 375px) and (height: 812px) {
+  font-size: 20px;
+  padding-top: 80%;
+  height: 50%;
+  width: 60%;
+  padding-right: 20%;
+}
+
+@media screen and (width: 768px) and (height: 1024px) {
+  padding-top: 80%;
+  height: 50%;
+  width: 60%;
+  padding-right: 20%;
+}
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  padding-top: 80%;
+  height: 50%;
+  width: 60%;
+  padding-right: 20%;
+  font-size: 32px;
+}
+
+@media screen and (width: 540px) and (height: 720px) {
+  padding-top: 80%;
+  height: 50%;
+  width: 60%;
+  padding-right: 20%;
+  font-size: 25px;
+}
 `;
 
 export const TechBottom = styled.div`
@@ -170,6 +201,35 @@ font-weight: bold;
   padding-top: 5%;
   padding-right: 20%;
 }
+
+@media screen and (width: 375px) and (height: 812px) {
+  font-size: 10px;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 20%;
+}
+
+@media screen and (width: 768px) and (height: 1024px) {
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 20%;
+}
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 16%;
+  font-size: 25px;
+  padding-left: 10%;
+}
+
+@media screen and (width: 540px) and (height: 720px) {
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 16%;
+  font-size: 12px;
+  padding-left: 10%;
+}
 `;
 
 export const TechBottomTop = styled.div`
@@ -242,6 +302,26 @@ export const TechPhoto = styled.img`
   }
 
   @media screen and (width: 414px) and (height: 736px) {
+    width: 20px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 375px) and (height: 812px) {
+    width: 20px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 768px) and (height: 1024px) {
+    width: 50px;
+    padding: 5px;
+  }
+
+  @media screen and (width: 1024px) and (height: 1366px) {
+    width: 40px;
+    padding: 10px;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
     width: 20px;
     padding: 5px;
   }
