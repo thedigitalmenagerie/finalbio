@@ -128,6 +128,26 @@ font-size: 25px;
   padding-right: 20%;
   font-size: 25px;
 }
+
+@media screen and (width: 280px) and (height: 653px) {
+  padding-top: 80%;
+  height: 50%;
+  width: 60%;
+  padding-right: 20%;
+  font-size: 20px;
+}
+
+@media screen and (width: 1024px) and (height: 600px) {
+  padding-top: 30%;
+}
+
+@media screen and (width: 390px) and (height: 884px) {
+  padding-top: 120%;
+  height: 50%;
+  width: 60%;
+  padding-right: 20%;
+  font-size: 30px;
+}
 `;
 
 export const TechBottom = styled.div`
@@ -230,6 +250,25 @@ font-weight: bold;
   font-size: 12px;
   padding-left: 10%;
 }
+
+@media screen and (width: 280px) and (height: 653px) {
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 15%;
+  font-size: 12px;
+}
+
+@media screen and (width: 1024px) and (height: 600px) {
+  padding-right: 5%;
+}
+
+@media screen and (width: 390px) and (height: 884px) {
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 10%;
+  font-size: 15px;
+  margin-left: 20%;
+}
 `;
 
 export const TechBottomTop = styled.div`
@@ -324,5 +363,20 @@ export const TechPhoto = styled.img`
   @media screen and (width: 540px) and (height: 720px) {
     width: 20px;
     padding: 5px;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    width: 15px;
+    padding: 3px;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    width: 50px;
+    padding: 10px;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    width: 30px;
+    padding: 3px;
   }
 `;

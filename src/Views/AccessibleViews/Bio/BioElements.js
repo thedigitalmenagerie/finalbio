@@ -133,6 +133,23 @@ font-size: 25px;
     padding-right: 15%;
     font-size: 20px;
   }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    padding-top: 80%;
+    height: 50%;
+    width: 60%;
+    padding-right: 5%;
+    font-size: 15px;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    padding-top: 30%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    padding-top: 120%;
+    padding-right: 30%;
+  }
 `;
 
 export const BioBottom = styled.div`
@@ -249,5 +266,27 @@ font-style: italic;
     margin-left: 40%;
     padding-right: 17%;
     font-size: 12px;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    padding-top: 0%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 20%;
+    padding-right: 15%;
+    font-size: 12px;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    padding-right: 5%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    padding-top: 0%;
+    // height: 50%;
+    max-width: 100%;
+    margin-left: 20%;
+    padding-right: 10%;
+    font-size: 15px;
   }
 `;

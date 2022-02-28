@@ -70,4 +70,20 @@ export const LogoImg = styled.img`
   @media screen and (width: 540px) and (height: 720px) {
     width: 100px;
   }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    width: 75px;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    width: 125px;
+  }
+
+  @media screen and (width: 1280px) and (height: 800px) {
+    width: 125px;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    width: 100px;
+  }
 `;

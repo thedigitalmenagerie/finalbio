@@ -142,6 +142,37 @@ font-size: 25px;
     color: #BF9000;
     padding-left: 20%;
   }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    font-size: 20px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    font-size: 25px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-left: 5%;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    padding-top: 20%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    font-size: 25px;
+    padding-top: 120%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-left: 5%;
+    padding-right: 15%;
+  }
 `;
 
 export const ExperienceBottom = styled.div`
@@ -189,6 +220,18 @@ font-style: italic;
   }
 
   @media screen and (width: 1024px) and (height: 1366px) {
+    width: 100%;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    width: 100%;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    width: 100%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
     width: 100%;
   }
 `;
@@ -277,5 +320,27 @@ export const ExperienceImg = styled.img`
     width: 200px;
     padding-bottom: 25px;
     margin-right: 20%;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    width: 100px;
+    padding-bottom: 25px;
+    margin-right: 20%;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    width: 100px;
+    padding-bottom: 30px;
+  }
+
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    width: 100px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    width: 125px;
+    padding-bottom: 30px;
   }
 `;

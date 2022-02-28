@@ -125,6 +125,33 @@ font-size: 25px;
     padding-right: 10%;
     font-size: 30px;
   }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-right: 10%;
+    font-size: 20px;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-right: 10%;
+    font-size: 20px;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    padding-top: 120%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-right: 10%;
+    font-size: 30px;
+  }
 `;
 
 export const ProjectsBottom = styled.div`
@@ -175,6 +202,22 @@ margin-left: 30%;
   }
 
   @media screen and (width: 1024px) and (height: 1366px) {
+    display: none;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    display: none;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    display: none;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    display: none;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
     display: none;
   }
 `;

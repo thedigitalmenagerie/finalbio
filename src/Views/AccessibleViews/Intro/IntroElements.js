@@ -130,6 +130,31 @@ export const IntroTop = styled.div`
     height: 50%;
     color: #BF9000;
   }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    font-size: 25px;
+    width: 80%;
+    padding-top: 100%;
+    height: 50%;
+    color: #BF9000;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    font-size: 30px;
+    width: 80%;
+    height: 50%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    font-size: 40px;
+    width: 80%;
+    height: 50%;
+    padding-top: 100%;
+    padding-right: 10%;
+    color: #BF9000;
+  }
+
+
 `;
 
 export const IntroBottom = styled.div`
@@ -204,6 +229,26 @@ export const IntroBottom = styled.div`
     margin-left: 35%;
     padding-top: 100%;
   }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    max-width: 100%;
+    padding-right: 30%;
+    margin-left: 35%;
+    padding-top: 150%;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    max-width: 50%;
+    margin-left: 35%;
+    margin-right: 10%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 120%;
+  }
   
 `;
 
@@ -270,6 +315,21 @@ export const Title = styled.div`
 
   @media screen and (width: 540px) and (height: 720px) {
     font-size: 30px;
+    width: 100%;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    font-size: 35px;
     width: 100%;
   }
   
@@ -339,6 +399,17 @@ export const Text = styled.div`
 
   @media screen and (width: 540px) and (height: 720px) {
     font-size: 15px;
+    width: 100%;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    font-size: 15px;
+    width: 100%;
+  }
+
+
+  @media screen and (width: 390px) and (height: 884px) {
+    font-size: 20px;
     width: 100%;
   }
 `;

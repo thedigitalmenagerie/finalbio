@@ -138,6 +138,38 @@ padding-top: 20%;
     color: #BF9000;
     padding-left: 20%;
   }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    font-size: 25px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-left: 20%;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    font-size: 25px;
+    padding-top: 80%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-left: 5%;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    padding-top: 40%;
+  }
+
+
+  @media screen and (width: 390px) and (height: 884px) {
+    font-size: 25px;
+    padding-top: 120%;
+    height: 50%;
+    width: 75%;
+    color: #BF9000;
+    padding-left: 5%;
+  }
 `;
 
 export const EducationBottom = styled.div`
@@ -182,6 +214,18 @@ margin-bottom: 20%;
   }
 
   @media screen and (width: 1024px) and (height: 1366px) {
+    width: 100%;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    width: 100%;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    width: 100%;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
     width: 100%;
   }
 `;
@@ -269,5 +313,26 @@ export const EdImage = styled.img`
     width: 200px;
     padding-bottom: 25px;
     margin-right: 20%;
+  }
+
+  @media screen and (width: 540px) and (height: 720px) {
+    width: 100px;
+    padding-bottom: 30px;
+    margin-right: 20%;
+  }
+
+  @media screen and (width: 280px) and (height: 653px) {
+    width: 100px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (width: 1024px) and (height: 600px) {
+    width: 100px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (width: 390px) and (height: 884px) {
+    width: 125px;
+    padding-bottom: 30px;
   }
 `;
