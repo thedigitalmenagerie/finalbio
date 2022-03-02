@@ -1,28 +1,28 @@
 /* eslint-disable import/prefer-default-export */
 import React from 'react';
-import CarouselContainer, { CarouselItem } from './Carousel/Carousel';
+// import CarouselContainer, { CarouselItem } from './Carousel/Carousel';
 import {
   ProjectsContainer,
   ProjectsTop,
-  ProjectsBottom,
-  Image
+  // ProjectsBottom,
+  // Image
 } from './ProjectElements';
-import lll from '../../../Assets/slidebackgroundLLL.png';
-import grat from '../../../Assets/slidebackgroundGRATITUDE.png';
-import mesi from '../../../Assets/slidebackgroundMESI.png';
+// import lll from '../../../Assets/slidebackgroundLLL.png';
+// import grat from '../../../Assets/slidebackgroundGRATITUDE.png';
+// import mesi from '../../../Assets/slidebackgroundMESI.png';
 
 function Projects() {
-  const style = {
-    width: '600px',
-    height: '350px',
-  };
+  // const style = {
+  //   width: '600px',
+  //   height: '350px',
+  // };
   return (
     <ProjectsContainer className='ProjectsContainer'>
       <ProjectsTop className='PojectsTop'>
         The stories I&apos;ve told using my newly acquired languages and
         narrative form
       </ProjectsTop>
-      <ProjectsBottom className='ProjectsBottom'>
+      {/* <ProjectsBottom className='ProjectsBottom'>
         <CarouselContainer>
           <CarouselItem>
             <Image src={mesi}/>
@@ -64,7 +64,7 @@ function Projects() {
             ></iframe>
           </CarouselItem>
         </CarouselContainer>
-      </ProjectsBottom>
+      </ProjectsBottom> */}
     </ProjectsContainer>
   );
 }
