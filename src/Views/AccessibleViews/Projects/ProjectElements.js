@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 // none of this is accounting for safari or browser tabs no resources show -- revisit tomorrow before laboring through rotated views
+// still working
 
 export const ProjectsContainer = styled.div`
 display: flex;
