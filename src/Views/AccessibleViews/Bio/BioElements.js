@@ -16,7 +16,6 @@ width: 50%;
 color: #BF9000;
 font-weight: bold;
 font-size: 25px;
-// padding-top: 15%;
 
 @media screen and (max-width: 1149px) {
     padding-top: 20%;
@@ -222,17 +221,12 @@ font-style: italic;
 
   @media screen and (width: 360px) and (height: 640px) {
     font-size: 12px;
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
-    // padding-left: 20%;
   }
 
   @media screen and (width: 411px) and (height: 731px) {
     font-size: 12px;
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 10%;
@@ -240,8 +234,6 @@ font-style: italic;
 
   @media screen and (width: 411px) and (height: 823px) {
     font-size: 12px;
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 10%;
@@ -249,8 +241,6 @@ font-style: italic;
 
   @media screen and (width: 320px) and (height: 568px) {
     font-size: 10px;
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 10%;
@@ -258,8 +248,6 @@ font-style: italic;
 
   @media screen and (width: 375px) and (height: 667px) {
     font-size: 10px;
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 10%;
@@ -267,8 +255,6 @@ font-style: italic;
 
   @media screen and (width: 414px) and (height: 736px) {
     font-size: 10px;
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 20%;
@@ -276,16 +262,12 @@ font-style: italic;
 
   @media screen and (width: 375px) and (height: 812px) {
     font-size: 10px;
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 20%;
   }
 
   @media screen and (width: 768px) and (height: 1024px) {
-    // padding-top: 80%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 20%;
@@ -293,7 +275,6 @@ font-style: italic;
 
   @media screen and (width: 1024px) and (max-height: 1366px) {
     padding-top: 0%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 40%;
     padding-right: 17%;
@@ -302,7 +283,6 @@ font-style: italic;
 
   @media screen and (width: 540px) and (height: 720px) {
     padding-top: 0%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 40%;
     padding-right: 17%;
@@ -311,7 +291,6 @@ font-style: italic;
 
   @media screen and (width: 280px) and (height: 653px) {
     padding-top: 0%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 15%;
@@ -324,7 +303,6 @@ font-style: italic;
 
   @media screen and (width: 390px) and (height: 884px) {
     padding-top: 0%;
-    // height: 50%;
     max-width: 100%;
     margin-left: 20%;
     padding-right: 10%;

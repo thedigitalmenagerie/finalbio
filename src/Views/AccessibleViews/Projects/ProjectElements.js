@@ -1,7 +1,5 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
-// none of this is accounting for safari or browser tabs no resources show -- revisit tomorrow before laboring through rotated views
-// still working
 
 export const ProjectsContainer = styled.div`
 display: flex;
@@ -17,8 +15,7 @@ height: 50%;
 width: 50%;
 font-weight: bold;
 font-size: 25px;
-// padding-top: 15%;
- font-style: italic;
+ color: #BF9000;
 
  @media screen and (max-width: 1920px) {
    padding-top: 20%;
@@ -62,7 +59,6 @@ font-size: 25px;
     height: 50%;
     width: 75%;
     color: #BF9000;
-    // padding-left: 20%;
   }
 
   @media screen and (width: 411px) and (height: 731px) {
@@ -71,7 +67,6 @@ font-size: 25px;
     height: 50%;
     width: 75%;
     color: #BF9000;
-    // padding-left: 20%;
   }
 
   @media screen and (width: 411px) and (height: 823px) {
@@ -80,7 +75,6 @@ font-size: 25px;
     height: 50%;
     width: 75%;
     color: #BF9000;
-    // padding-left: 20%;
   }
 
   @media screen and (width: 320px) and (height: 568px) {
@@ -89,7 +83,6 @@ font-size: 25px;
     height: 50%;
     width: 75%;
     color: #BF9000;
-    // padding-left: 20%;
   }
 
   @media screen and (width: 375px) and (height: 667px) {
@@ -98,7 +91,6 @@ font-size: 25px;
     height: 50%;
     width: 75%;
     color: #BF9000;
-    // padding-left: 20%;
   }
 
   @media screen and (width: 414px) and (height: 736px) {
@@ -165,19 +157,9 @@ font-size: 25px;
 `;
 
 export const ProjectsBottom = styled.div`
-// display: flex;
-// flex-flow: row wrap;
-// justify-content: center;
-// align-items: center;
-// height: 50%;
 max-width: 50%;
 padding-top: 5%;
-// text-align: right;
 margin-left: 30%;
-// margin-bottom: 20%;
-// font-weight: bold;
-// font-size: 20px;
-// font-style: italic;
 
 @media screen and (width: 360px) and (height: 640px) {
   display: none;

@@ -16,7 +16,6 @@ width: 50%;
 color: #BF9000;
 font-weight: bold;
 font-size: 25px;
-// padding-top: 15%;
 
 @media screen and (max-width: 1149px) {
     padding-top: 20%;
