@@ -18,6 +18,10 @@ font-style: italic;
 font-weight: bold;
 font-size: 25px;
 
+@media screen and (width: 1149px) {
+    padding-top: 20%;
+}
+
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
     padding-left: 10%;
@@ -138,6 +142,10 @@ padding-top: 10%;
 text-align: right;
 margin-left: 30%;
 margin-bottom: 20%;
+
+@media screen and (width: 1149px) {
+    padding-right: 5%;
+  }
 
 @media screen and (width: 1920px) and (height: 1080px) {
   font-size: 25px;

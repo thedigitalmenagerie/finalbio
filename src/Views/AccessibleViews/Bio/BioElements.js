@@ -163,6 +163,11 @@ font-weight: bold;
 font-size: 20px;
 font-style: italic;
 
+@media screen and (width: 1149px) {
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 30px;
   }

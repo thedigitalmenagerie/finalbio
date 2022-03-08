@@ -18,6 +18,10 @@ font-weight: bold;
 font-size: 25px;
 // padding-top: 15%;
 
+@media screen and (width: 1149px) {
+    padding-top: 20%;
+    }
+
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
     padding-left: 5%;
@@ -241,7 +245,11 @@ export const ExperienceImg = styled.img`
   filter: grayscale(100%);
   padding-right: 35px;
 
-  @media screen and (width: 1920px) and (height: 1080px) {
+  @media screen and (width: 1149px) {
+    width: 100px;
+  }
+
+@media screen and (width: 1920px) and (height: 1080px) {
     padding-right: 100px;
 }
 

@@ -257,6 +257,11 @@ export const Title = styled.div`
   font-weight: bold;
   font-size: 50px;
 
+  @media screen and (max-width: 1149px) {
+    font-size: 40px;
+    padding-right: 5%;
+  }
+
   @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 55px;
   }
@@ -339,6 +344,10 @@ export const Text = styled.div`
   font-weight: bold;
   font-size: 20px;
   font-style: italic;
+
+  @media screen and (max-width: 1149px) {
+    padding-right: 5%;
+  }
 
   @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 30px;

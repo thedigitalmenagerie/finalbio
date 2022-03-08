@@ -161,6 +161,10 @@ flex-flow: row wrap;
 font-style: italic;
 font-weight: bold;
 
+@media screen and (width: 1149px) {
+  padding-right: 5%;
+}
+
 @media screen and (width: 1920px) and (height: 1080px) {
   font-size: 25px;
 }
@@ -281,8 +285,13 @@ export const TechBottomBottom = styled.div`
 `;
 
 export const TechPhoto = styled.img`
-  width: 75px;
+  width: 60px;
   padding: 20px;
+
+  @media screen and (width: 1149px) {
+    width: 40px;
+    padding: 10px;
+  }
 
   @media screen and (width: 1366px) and (height: 768px) {
     width: 50px;

@@ -17,7 +17,11 @@ export const LogoImg = styled.img`
   position: absolute;
   top: 0;
   right: 0;
-  width: 175px;
+  width: 165px;
+
+  @media screen and (width: 1149px) {
+    width: 150px;
+  }
 
   @media screen and (width: 1920px) and (height: 1080px) {
     width: 300px;
