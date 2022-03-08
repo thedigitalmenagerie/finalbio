@@ -18,23 +18,23 @@ export const OLImage = styled.img`
   left: 0;
 
   @media screen and (max-width: 1149px) {
-    width: 500px;
+    width: 250px;
   }
 
   @media screen and (max-width: 1000px) {
-    width: 450px;
+    width: 2250px;
   }
 
   @media screen and (max-width: 750px) {
-    width: 400px;
+    width: 200px;
   }
 
   @media screen and (max-width: 650px) {
-    width: 350px;
+    width: 175px;
   }
 
   @media screen and (max-width: 500px) {
-    width: 250px;
+    width: 125px;
   }
 
   @media screen and (width: 1920px) and (height: 1080px) {
