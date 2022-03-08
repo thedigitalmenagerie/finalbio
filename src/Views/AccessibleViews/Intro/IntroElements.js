@@ -20,6 +20,26 @@ export const IntroTop = styled.div`
   font-size: 25px;
   padding-top: 15%;
 
+  @media screen and (max-width: 1000px) {
+    width: 65%;
+    padding-top: 25%;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: 65%;
+    padding-top: 20%;
+  }
+
+  @media screen and (max-width: 550px) {
+    font-size: 20px;
+    padding-right: 10%;
+  }
+
+  @media screen and (max-width: 400px) {
+    padding-top: 45%;
+  }
+  
+
   @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
   }
@@ -107,7 +127,7 @@ export const IntroTop = styled.div`
     color: #BF9000;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     font-size: 35px;
     width: 70%;
     padding-top: 50%;
@@ -115,7 +135,7 @@ export const IntroTop = styled.div`
     color: #BF9000;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     font-size: 50px;
     width: 70%;
     padding-top: 50%;
@@ -171,6 +191,17 @@ export const IntroBottom = styled.div`
     padding-top: 150%;
   }
 
+  @media screen and (max-width: 500px) {
+    margin-right: 12%;
+    max-width: 75%;
+  }
+
+  @media screen and (max-width: 400px) {
+    margin-left: 20%;
+    margin-right: 15%;
+    max-width: 75%;
+  }
+
   @media screen and (width: 411px) and (height: 731px) {
     max-width: 100%;
     padding-right: 10%;
@@ -209,14 +240,14 @@ export const IntroBottom = styled.div`
     padding-top: 150%;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     max-width: 100%;
     padding-right: 25%;
     margin-left: 20%;
     padding-top: 100%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     max-width: 100%;
     padding-right: 20%;
     margin-left: 35%;
@@ -260,6 +291,21 @@ export const Title = styled.div`
   @media screen and (max-width: 1149px) {
     font-size: 40px;
     padding-right: 5%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    font-size: 35px;
+    padding-right: 7%;
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: 30px;
+    padding-right: 7%;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 25px;
+    padding-right: 7%;
   }
 
   @media screen and (width: 1920px) and (height: 1080px) {
@@ -313,7 +359,7 @@ export const Title = styled.div`
     width: 100%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     font-size: 50px;
     width: 100%;
   }
@@ -347,6 +393,15 @@ export const Text = styled.div`
 
   @media screen and (max-width: 1149px) {
     padding-right: 5%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    font-size: 18px;
+    padding-right: 7%;
+  }
+
+  @media screen and (max-width: 750px) {
+    font-size: 15px;
   }
 
   @media screen and (width: 1920px) and (height: 1080px) {
@@ -400,7 +455,7 @@ export const Text = styled.div`
     width: 100%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     font-size: 30px;
     width: 100%;
   }

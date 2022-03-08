@@ -17,8 +17,24 @@ export const OLImage = styled.img`
   bottom: 0;
   left: 0;
 
-  @media screen and (width: 1149px) {
+  @media screen and (max-width: 1149px) {
     width: 500px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 450px;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: 400px;
+  }
+
+  @media screen and (max-width: 650px) {
+    width: 350px;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 250px;
   }
 
   @media screen and (width: 1920px) and (height: 1080px) {
@@ -69,7 +85,7 @@ export const OLImage = styled.img`
     width: 400px;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     width: 700px;
   }
 

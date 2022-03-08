@@ -19,8 +19,24 @@ export const LogoImg = styled.img`
   right: 0;
   width: 165px;
 
-  @media screen and (width: 1149px) {
+  @media screen and (max-width: 1149px) {
     width: 150px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 125px;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: 100px;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 90px;
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 75px;
   }
 
   @media screen and (width: 1920px) and (height: 1080px) {
@@ -67,7 +83,7 @@ export const LogoImg = styled.img`
     width: 100px;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     width: 200px;
   }
 

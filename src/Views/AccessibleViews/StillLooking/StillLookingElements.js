@@ -18,9 +18,17 @@ font-style: italic;
 font-weight: bold;
 font-size: 25px;
 
-@media screen and (width: 1149px) {
+@media screen and (max-width: 1149px) {
     padding-top: 20%;
 }
+
+@media screen and (max-width: 500px) {
+ padding-right: 25%;
+}
+
+@media screen and (max-width: 500px) {
+    padding-top: 35%;
+   }
 
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
@@ -96,17 +104,17 @@ font-size: 25px;
     padding-top: 80%;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     padding-top: 80%;
     font-size: 30px;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     padding-top: 80%;
     font-size: 30px;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     padding-top: 80%;
     font-size: 45px;
   }
@@ -142,9 +150,28 @@ padding-top: 10%;
 text-align: right;
 margin-left: 30%;
 margin-bottom: 20%;
+font-style: italic;
+font-weight: bold;
 
-@media screen and (width: 1149px) {
+@media screen and (max-width: 1149px) {
     padding-right: 5%;
+  }
+
+  @media screen and (max-width: 900px) {
+  margin-bottom: 30%;
+  }
+
+  @media screen and (max-width: 800px) {
+    margin-bottom: 40%;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-right: 12%;
+    max-width: 75%;
+  }
+
+  @media screen and (max-width: 400px) {
+    margin-bottom: 60%;
   }
 
 @media screen and (width: 1920px) and (height: 1080px) {
@@ -256,7 +283,7 @@ margin-bottom: 20%;
     max-width: 100%;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     padding-top: 20%;
     padding-bottom: 30%;
     padding-right: 20%;
@@ -266,7 +293,7 @@ margin-bottom: 20%;
     max-width: 100%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     padding-top: 20%;
     padding-bottom: 25%;
     padding-right: 20%;
@@ -323,6 +350,10 @@ font-size: 50px;
 font-style: normal;
 padding-bottom: 25px;
 
+@media screen and (max-width: 900px) {
+  font-size: 40px;
+}
+
 @media screen and (width: 2560px) and (height: 1440px) {
     font-size: 75px;
   }
@@ -363,7 +394,7 @@ padding-bottom: 25px;
     font-size: 40px;
   }
 
-  @media screen and (width: 768x) and (height: 1024px) {
+  @media screen and (width: 768x) and (max-height: 1024px) {
     font-size: 40px;
   }
 

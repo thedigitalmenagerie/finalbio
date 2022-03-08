@@ -12,6 +12,10 @@ export const LogoContainer = styled.div`
   margin-top: 10px;
   writing-mode: vertical-rl;
 
+  @media screen and (max-width: 1149px) {
+    font-size: 15px;
+  }
+
   @media screen and (width: 1149px) {
     font-size: 15px;
   }
@@ -40,7 +44,7 @@ export const LogoContainer = styled.div`
     font-size: 20px;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     font-size: 25px;
   }
 `;

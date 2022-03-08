@@ -20,6 +20,14 @@ font-size: 25px;
 // padding-top: 15%;
  font-style: italic;
 
+ @media screen and (max-width: 1920px) {
+   padding-top: 20%;
+ }
+
+ @media screen and (max-width: 500px) {
+    padding-right: 25%;
+   }
+
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
   }
@@ -111,7 +119,7 @@ font-size: 25px;
     padding-right: 10%;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     padding-top: 80%;
     height: 50%;
     width: 75%;
@@ -119,7 +127,7 @@ font-size: 25px;
     padding-right: 10%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     padding-top: 80%;
     height: 50%;
     width: 75%;
@@ -199,11 +207,11 @@ margin-left: 30%;
     display: none;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     display: none;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     display: none;
   }
 

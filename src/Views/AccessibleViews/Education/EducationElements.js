@@ -18,9 +18,13 @@ font-weight: bold;
 font-size: 25px;
 padding-top: 20%;
 
-@media screen and (width: 1149px) {
+@media screen and (max-width: 1149px) {
   padding-top: 30%;
   }
+
+  @media screen and (max-width: 500px) {
+    padding-right: 25%;
+   }
 
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
@@ -125,7 +129,7 @@ padding-top: 20%;
     padding-left: 20%;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     font-size: 20px;
     padding-top: 80%;
     height: 50%;
@@ -134,7 +138,7 @@ padding-top: 20%;
     padding-left: 20%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     font-size: 35px;
     padding-top: 80%;
     height: 50%;
@@ -213,7 +217,7 @@ margin-bottom: 20%;
     width: 100%;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     width: 100%;
   }
 
@@ -239,9 +243,23 @@ export const EdImage = styled.img`
   filter: grayscale(100%);
   padding-right: 30px;
 
-  @media screen and (width: 1149px) {
+  @media screen and (max-width: 1149px) {
     width: 100px;
   }
+
+  @media screen and (max-width: 750px) {
+    width: 80px;
+  }
+
+
+  @media screen and (max-width: 700px) {
+    width: 70px;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
 
   @media screen and (width: 1920px) and (height: 1080px) {
       padding-right: 100px;
@@ -311,7 +329,7 @@ export const EdImage = styled.img`
     margin-right: 10%;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     width: 125px;
     padding-bottom: 25px;
     margin-right: 20%;

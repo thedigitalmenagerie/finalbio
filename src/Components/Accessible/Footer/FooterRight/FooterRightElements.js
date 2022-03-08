@@ -31,6 +31,10 @@ export const OLImage = styled.img`
   padding-bottom: 10px;
   padding-right: 20px;
 
+  @media screen and (max-width: 1000px) {
+    width: 25px;
+  }
+
   @media screen and (width: 1920px) and (height: 1080px) {
     width: 50px;
   }

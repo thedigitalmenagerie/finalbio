@@ -18,6 +18,27 @@ font-weight: bold;
 font-size: 25px;
 // padding-top: 15%;
 
+@media screen and (max-width: 1149px) {
+    padding-top: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    padding-top: 20%;
+}
+
+@media screen and (max-width: 550px) {
+  font-size: 20px;
+  padding-right: 25%;
+}
+
+@media screen and (max-width: 400px) {
+    margin-top: 20%;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 15px;
+  }
+
 @media screen and (width: 1920px) and (height: 1080px) {
     font-size: 35px;
   }
@@ -118,7 +139,7 @@ font-size: 25px;
     padding-right: 15%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     padding-top: 80%;
     height: 50%;
     width: 60%;
@@ -163,9 +184,24 @@ font-weight: bold;
 font-size: 20px;
 font-style: italic;
 
-@media screen and (width: 1149px) {
+@media screen and (max-width: 1149px) {
     padding-right: 5%;
     font-size: 18px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    padding-right: 7%;
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-right: 10%;
+    max-width: 75%;
+  }
+
+  @media screen and (max-width: 400px) {
+    margin-left: 20%;
+    font-size: 12px;
   }
 
 @media screen and (width: 1920px) and (height: 1080px) {
@@ -255,7 +291,7 @@ font-style: italic;
     padding-right: 20%;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     padding-top: 0%;
     // height: 50%;
     max-width: 100%;

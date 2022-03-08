@@ -17,6 +17,19 @@ color: #BF9000;
 font-weight: bold;
 font-size: 25px;
 
+@media screen and (max-width: 1149px) {
+  padding-top: 20%;
+}
+
+@media screen and (max-width: 550px) {
+  padding-right: 20%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  padding-top: 40%;
+}
+
 @media screen and (width: 1920px) and (height: 1080px) {
   font-size: 35px;
 }
@@ -106,14 +119,14 @@ font-size: 25px;
   padding-right: 20%;
 }
 
-@media screen and (width: 768px) and (height: 1024px) {
+@media screen and (width: 768px) and (height: px) {
   padding-top: 80%;
   height: 50%;
   width: 60%;
   padding-right: 20%;
 }
 
-@media screen and (width: 1024px) and (height: 1366px) {
+@media screen and (width: 1024px) and (max-height: 1366px) {
   padding-top: 80%;
   height: 50%;
   width: 60%;
@@ -161,8 +174,25 @@ flex-flow: row wrap;
 font-style: italic;
 font-weight: bold;
 
-@media screen and (width: 1149px) {
+@media screen and (max-width: 1149px) {
   padding-right: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  padding-right: 7%;
+}
+
+@media screen and (max-width: 550px) {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  margin-right: 10%;
+  max-width: 75%;
+}
+
+@media screen and (max-width: 400px) {
+  font-size: 12px;
 }
 
 @media screen and (width: 1920px) and (height: 1080px) {
@@ -233,13 +263,13 @@ font-weight: bold;
   padding-right: 20%;
 }
 
-@media screen and (width: 768px) and (height: 1024px) {
+@media screen and (width: 768px) and (max-height: 1024px) {
   max-width: 100%;
   padding-top: 5%;
   padding-right: 20%;
 }
 
-@media screen and (width: 1024px) and (height: 1366px) {
+@media screen and (width: 1024px) and (max-height: 1366px) {
   max-width: 100%;
   padding-top: 5%;
   padding-right: 16%;
@@ -288,9 +318,23 @@ export const TechPhoto = styled.img`
   width: 60px;
   padding: 20px;
 
-  @media screen and (width: 1149px) {
+  @media screen and (max-width: 1149px) {
     width: 40px;
     padding: 10px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 35px;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 550px) {
+    width: 25px;
+  }
+
+  @media screen and (max-width: 350px) {
+    padding: 3px;
+    width: 20px;
   }
 
   @media screen and (width: 1366px) and (height: 768px) {
@@ -359,12 +403,12 @@ export const TechPhoto = styled.img`
     padding: 5px;
   }
 
-  @media screen and (width: 768px) and (height: 1024px) {
+  @media screen and (width: 768px) and (max-height: 1024px) {
     width: 50px;
     padding: 5px;
   }
 
-  @media screen and (width: 1024px) and (height: 1366px) {
+  @media screen and (width: 1024px) and (max-height: 1366px) {
     width: 40px;
     padding: 10px;
   }
