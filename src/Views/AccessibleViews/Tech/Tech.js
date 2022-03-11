@@ -62,7 +62,7 @@ function Bio() {
           <TechPhoto src={sql} className="TechPhoto"/>
           <TechPhoto src={vscode} className="TechPhoto"/>
         </TechBottomBottom>
-        While working with them, I&apos;ve gained experience in utilizing terminal commands, gitbash, unix commands, feature tickets, work flow, branching, pull requests, ES6, DOM Interaction, debugging, ERDs, authentication, axios, and lifecylce methods when executing assignments and personal projects.
+        While working with them, I&apos;ve gained experience in utilizing terminal commands, feature tickets, work flow, branching, pull requests, debugging, ERDs, and lifecylce methods when executing projects.
       </TechBottom>
     </TechContainer>
   );
