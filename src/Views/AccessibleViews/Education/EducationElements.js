@@ -16,7 +16,6 @@ width: 50%;
 color: #BF9000;
 font-weight: bold;
 font-size: 25px;
-padding-top: 20%;
 
 @media screen and (max-width: 1149px) {
   padding-top: 30%;
@@ -238,10 +237,18 @@ margin-bottom: 20%;
   }
 `;
 
+export const Button = styled.button`
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+`;
+
 export const EdImage = styled.img`
   width: 200px;
   filter: grayscale(100%);
-  padding-right: 30px;
+  padding-right: 25px;
 
   @media screen and (max-width: 1149px) {
     width: 100px;

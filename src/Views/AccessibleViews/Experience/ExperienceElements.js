@@ -243,10 +243,18 @@ font-style: italic;
   }
 `;
 
+export const Button = styled.button`
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+`;
+
 export const ExperienceImg = styled.img`
   width: 200px;
   filter: grayscale(100%);
-  padding-right: 35px;
+  padding-right: 25px;
 
   @media screen and (max-width: 1149px) {
     width: 100px;
